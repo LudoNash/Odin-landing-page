@@ -30,12 +30,38 @@ ul {
   margin: 0 auto;
   padding: 0 30px;
 }
+
 .navbar {
   background-color: #1f2937;
   color: white;
-  height: 60px;  
+  height: 60px;
 }
+
+.navbar .logo {
+  font-size: large;
+  font-weight: bold;
+}
+
 .navbar a {
   color: #fff;
   text-decoration: none;
+}
+
+.navbar a:hover {
+  color: lightblue;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
 }
